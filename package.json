@@ -1,0 +1,19 @@
+{
+  "name": "itc230",
+  "version": "1.0.0",
+  "description": "Itc 230 Advanced JS homework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/firelocke/itc230.git"
+  },
+  "author": "Kat Hunt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/firelocke/itc230/issues"
+  },
+  "homepage": "https://github.com/firelocke/itc230#readme"
+}
