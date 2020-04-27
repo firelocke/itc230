@@ -1,0 +1,53 @@
+/* (form.css) The following are helpful starter styles for your contactme.php page where your form reside for your WEB120 portal website. Save it in your web120 > css folder and then make changes to it as desired! */
+
+/* start reCAPTCHA styles */
+
+form>div {
+    margin: 1em;
+}
+		
+/* writes to small text above reCAPTCHA upon failure */
+
+.dateFeedback {
+	font-style: italic;
+	font-size: 70%;
+	font-weight: bold;
+	color: #d90429;
+}
+
+input:required {
+    border: 1px solid #d90429;
+    border-radius: 13px;
+}
+
+input:optional, textarea:optional {
+    background-color: #2b2d42;
+    border: 1px solid #edf2f4;
+    border-radius: 13px;
+}
+
+input[type="submit"], input[type="button"] {
+    background-color: #ef233c;
+    border-radius: 4px;
+    border: solid 1px #d90429;
+    border-radius: 13px;
+    padding: 0.3em 0.5em;
+}
+
+fieldset {
+    border: 1px solid #edf2f4;
+    max-width: 350px;
+    border-radius: 13px;
+}
+
+legend {
+    margin-left: 0.5em;
+    padding: 0.2em 0.5em;
+    border-left: 1px solid #edf2f4;
+    border-right: 1px solid #edf2f4;
+    border-radius: 13px;
+}
+        
+/* end reCAPTCHA styles */
+
+

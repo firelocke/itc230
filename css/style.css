@@ -1,0 +1,230 @@
+/* Colors
+#2b2d42 (space cadet)
+#8d99ae (cool grey)
+#edf2f4 (cultured)
+#ef233c (imperial red)
+#d90429 (amaranth red)
+#0b0807 (smoky black)
+*/
+
+/* Fonts 
+font-family: 'Baloo Bhai 2', cursive;
+font-family: 'Lato', sans-serif;
+*/
+
+
+
+/* ------------------------------------------- */
+/* Global Styles */
+
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+} 
+
+body {
+    font-family: 'Lato', sans-serif;
+    background: #1a1b28;
+    margin: 0;
+}
+
+a {
+    color: #ef233c;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    background: #edf2f4;
+    border-radius: 13px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.profile-img {
+    width: 250px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px;
+}
+
+.desktop, .tablet, .phone {
+    width: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px;
+}
+
+.content-wrap {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+h1 {
+    color: #d90429;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 80px;
+    margin: 10px;
+}
+
+h2 {
+    color: #d90429;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 40px;
+    margin-top: 0;
+}
+
+
+
+/* ------------------------------------------- */
+/* Embed Responsively Rules! */
+/* div.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin: auto;
+    max-width: 98%;
+} 
+
+div.embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+} 
+*/
+
+
+/* ------------------------------------------- */
+/* Header and Footer */
+
+/* header */
+
+header {
+    background: #2b2d42;
+    color: #edf2f4;
+    text-align: center;
+}
+
+/* footer */
+
+footer {
+    background: #2b2d42;
+    color: #edf2f4;
+    text-align: center;
+    clear:both;
+}
+
+.contact-info a {
+    font-size: 20px;
+    padding: 10px;
+    display: inline-block;    
+}
+
+
+
+/* ------------------------------------------- */
+/* Profile */
+
+.profile {
+    background: #8d99ae;
+}
+
+
+
+/* ------------------------------------------- */
+/* Hobbies */
+
+.hobbies {
+    background: #edf2f4;
+}
+
+
+
+/* ------------------------------------------- */
+/* START RESPONSIVE STYLES */
+
+/* DESKTOP */
+@media all and (min-width:1400px) {
+	
+    main.wrapper {
+	   width: 100%;
+	   margin: auto;
+    }
+
+    section {
+	   width: 100%;
+	   float: left;
+    }
+	
+    img.desktop {
+        float: left;
+        width: 30%;
+        display: inline-block;
+    }
+    
+    img.tablet, img.phone {
+   	    display: none;
+    } 
+    
+/* Change background color of navigation on selected page */
+    ul.topnav li a.selected {
+        background-color: #edf2f4;
+        color: #000;
+        border-radius: 13px;
+    }
+}
+
+
+/* TABLET */
+@media all and (min-width:737px) and (max-width:1399px) {
+    
+    section {
+        width: 100%;
+	   float: left;
+    }
+	
+    img.tablet {
+        width: 40%;
+        display: inline-block;
+    }
+    
+    img.desktop, img.phone {
+   	    display: none;
+    } 
+
+    
+/* Change background color of navigation on selected page */
+    ul.topnav li a.selected {
+        background-color: #edf2f4;
+        color: #000;
+        border-radius: 13px;
+    }
+}
+    
+/* PHONE */
+@media all and (max-width:736px) {
+    
+    img.phone {
+    	width: 80%;
+        display: inline-block;
+    }
+    
+    img.tablet, img.desktop {
+       	display: none;
+    }  
+}
+
+
+
