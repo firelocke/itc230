@@ -5,14 +5,13 @@
         
             <!-- Social media and contact links. Add or remove any networks. -->
             <div class="contact-info">
-                <a href="mailto:@example.com">email@example.com</a>
-                <a href="http://yourwebsite.com" target="_blank">yourwebsite.com</a>
+                <a href="contactme.php">Send an Email!</a>
                 <a href="#" target="_blank">Twitter</a>
                 <a href="#" target="_blank">LinkedIn</a>
                 <a href="#" target="_blank">Facebook</a>
             </div>
 
-            <p>Copyright 2020 by Kat Hunt, all rights reserved ~ <a href="http://validator.w3.org/check?uri=referer" target="_blank" target="_blank">Valid HTML</a> ~ <a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a></p>
+            <p>&copy; 2020 - <?=date('Y')?> by Kat Hunt, all rights reserved ~       <a href="http://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~ <a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a>
         </div><!-- close content-wrap div -->
     </footer>
     
