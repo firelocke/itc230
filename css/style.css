@@ -137,7 +137,7 @@ footer {
 /* ------------------------------------------- */
 /* Profile */
 
-.profile {
+.top-color {
     background: #8d99ae;
 }
 
@@ -146,13 +146,53 @@ footer {
 /* ------------------------------------------- */
 /* Hobbies */
 
-.hobbies {
+.mid-color {
     background: #edf2f4;
 }
 
 
 
 /* ------------------------------------------- */
+
+/* AIA Page*/
+
+.wrapper{ 
+    max-width:1240px; 
+    margin:20px auto;
+    padding:20px;
+    border:5px solid #d90429;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    overflow:auto;
+}
+			
+		
+table {
+    border: 3px solid #d90429; 
+    border-collapse:collapse;
+}
+			
+td, th {
+    border: 2px solid #d90429; 
+    padding:10px;
+}
+		
+.aia td {
+    width:33%;
+    border-radius: 25px;
+}
+
+.aia th {
+    font-size:1.25em;
+}
+		
+.clientinfo th {
+    font-size: 1.15em; 
+    border-radius: 25px;
+    text-align:right;
+}
+
+
 /* START RESPONSIVE STYLES */
 
 /* DESKTOP */

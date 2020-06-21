@@ -25,7 +25,7 @@
                 
                 <nav>
                     <ul class="topnav" id="myTopnav">
-                        <?=makeLinks($nav)?>
+                        <?=makeLinks($nav1)?>
                      
                         <!--
                         <li><a href="index.php" class="selected">Welcome</a></li>

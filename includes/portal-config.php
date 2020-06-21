@@ -67,7 +67,6 @@ switch(THIS_PAGE){
         $nav1['fp/index.php'] = "Final Project";
         $nav1['contactme.php'] = "Contact Kat";
  
-      
         
 /*
 makeLinks function will create our dynamic nav when called.
@@ -87,8 +86,8 @@ function makeLinks($linkArray)
 	    	$myReturn .= '<li><a href="' . $url . '">' . $text . '</a></li>'  . PHP_EOL;
     	}    
     }
+    return $myReturn;   
 }
-    return $myReturn;    
 ?>
 
 

@@ -5,8 +5,9 @@
     
     <main> 
         <!-- Profile -->
-        <section class="profile">
+        <section class="top-color">
             <div class="content-wrap"> <!-- new content wrap div -->
+                
                 
                 <h2>Profile</h2>
                 
@@ -20,7 +21,7 @@
         </section>
 
         <!-- Hobbies -->
-        <section class="hobbies">
+        <section class="mid-color">
             <div class="content-wrap"> <!-- new content wrap div -->
                 <h2>Hobbies</h2>
 
