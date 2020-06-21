@@ -1,7 +1,16 @@
 <?php include "includes/header.php";?>
+
+        <!-- START top section -->
+        <section class="top-color">
+                        
+            <h3>Upcoming Events</h3>
+            <p><b>Juneteenth!</b></p>
+            <p>Hosted by Delbert Richardson, African American Traveling Museum. More information coming soon.</p>
+        </section>
+        <!-- END top section -->
     
         <!-- Profile -->
-        <section class="top-color">
+        <section class="mid-color">
             <h3>Juneteenth with Black Lives Matter!</h3>
             <!-- Show/hide month view calendar based upon resolution -->
             <div class='month embed-container'>    
@@ -13,14 +22,5 @@
                 <iframe src='https://calendar.google.com/calendar/embed?showTitle=0&mode=AGENDA&src=seattlecentral.edu_qd8cadaudbi15a2jaqnrvvk4pg%40group.calendar.google.com&ctz=America%2FLos_Angeles'></iframe>
             </div>
         </section>
-
-        <!-- START RIGHT COL -->
-        <aside class="right-side mid-color">
-                        
-            <h3>Upcoming Events</h3>
-            <p><b>Juneteenth!</b></p>
-            <p>Hosted by Delbert Richardson, African American Traveling Museum. More information coming soon.</p>
-        </aside>
-        <!-- END RIGHT COL -->
 
 <?php include 'includes/footer.php';?>

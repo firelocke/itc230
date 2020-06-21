@@ -1,21 +1,23 @@
 <?php include "includes/header.php";?>
-    
+
         <!-- Profile -->
         <section class="top-color">
             
-            <h3>Accessible Web Design: What Is It & How To Do It</h3>
-            <div class='embed-container'>
-                <iframe img src="http://images.wsdot.wa.gov/nw/518vc00252.jpg?328" alt="Camera" style="width:100%; height:235px; min-height:235px"></iframe>
-            </div>
-        </section>
-            
-        <section class="mid-color">
-            <h3>Daily Routine (Stay Home Collection)</h3>
-            <p>Since it's been a long, hard semester, enjoy an amusing take on proper self-care during quarrentine!</p>
+            <h3>Soggy Dollar Bar Live Webcam</h3>
             <div class='embed-container'> 
-                <video playsinline="" webkit-playsinline="" src="blob:https://www.twitch.tv/dc4f03d4-5a11-4ddf-ab73-0e871dc7cc31"></video>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/LXWVYoBluT4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </section>
+            <br>
+            <br>
+        <section class="mid-color">
+            
+            <h3>Shark Lagoon Cam</h3>
+            <br>
+            <div class='embed-container'>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/LvfaMv9nbJc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+
 
 <?php include 'includes/footer.php';?>
-
