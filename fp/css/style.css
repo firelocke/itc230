@@ -1,0 +1,378 @@
+/* Colors
+Black:  #080808 hsl(0,0,3) rgb(8,8,8)
+White: #f0f0f0 hsl(0,0,94) rgb(240,240,240)
+Blue: #00bafe hsl(196,100,49) rgb(0,186,254)
+Dark Grey: #252525 hsl(0,0,14) rgb(37,37,37)
+Med Grey: #303030 hsl(0,0,18) rgb(48,48,48)
+Light Grey: #353535 hsl(0,0,20) rgb(53,53,53)
+ExtraLight Grey: #4c4c4c hsl(0,0,29) rgb(76,76,76)
+ExExLightGrey: #eaeaea hsl(0,0,91) rgb(234,234,234)
+Red: #ff0007 hsl(358,100,50) rgb(255,0,7)
+*/
+
+/* Fonts 
+font-family: 'Baloo Bhai 2', cursive;
+font-family: 'Lato', sans-serif;
+*/
+
+
+
+/* ------------------------------------------- */
+/* Global Styles */
+
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+} 
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #f0f0f0;
+    background: #080808 ;
+    margin: 0;
+}
+
+a {
+    color: #00bafe;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    background: #66d6ff;
+    border-radius: 13px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.small {
+    width: 100px;
+    height: auto;
+    float: left;
+    margin-right: 6px;
+    margin-bottom: 25px;
+}
+
+.moderate {
+    width: 200px;
+    height: auto;
+    padding-bottom: 15px;
+}
+
+.float-l {
+    float: left;
+    padding-right: 15px;
+}
+
+.clear {
+    clear: both;
+}
+
+.center {
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    padding: 15px;
+}
+
+.cen-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.left-side {
+    padding-right: 15px;
+}
+
+.right-side {
+    padding-left: 15px;
+}
+
+.profile-img {
+    width: 250px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px;
+}
+
+.desktop, .tablet, .phone {
+    width: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px;
+}
+
+.content-wrap {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+h1 {
+    color: #66d6ff;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 80px;
+    margin: 10px;
+}
+
+h2 {
+    color: #66d6ff;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 40px;
+    margin-top: 0;
+}
+
+h3 {
+    color: #66d6ff;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+
+
+/* ------------------------------------------- */
+
+/* Embed Responsively Rules! */
+
+/* div.embed-container {
+    float: left;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin: auto;
+    max-width: auto;
+    max-height: auto;    
+} 
+
+iframe {
+    float: left;
+    border: solid 2px #000000;
+    width: auto;
+    height: auto;
+}
+
+video {
+    float: left;
+    border: solid 2px #000000;
+    width: auto;
+    height: auto;
+}
+
+div.embed-container iframe {
+    position: absolute;
+    top: 20;
+    left: 0;
+    width: 100%;
+    height: 100%;
+} 
+
+*\
+
+
+/* ------------------------------------------- */
+/* Header and Footer */
+
+/* header */
+
+header {
+    background: #080808;
+    color: #f0f0f0;
+    text-align: center;
+}
+
+/* footer */
+
+footer {
+    background: #080808;
+    color: #f0f0f0;
+    text-align: center;
+    clear:both;
+}
+
+.contact-info a {
+    font-size: 20px;
+    padding: 10px;
+    display: inline-block;    
+}
+
+
+
+/* ------------------------------------------- */
+/* Top-Color */
+
+.top-color {
+    background: #4c4c4c;
+}
+
+
+/* ------------------------------------------- */
+/* Mid-Color */
+
+.mid-color {
+    background: #353535;
+}
+
+
+/* ------------------------------------------- */
+
+/* AIA Page*/
+
+/* .wrapper{ 
+    max-width:1240px; 
+    margin:20px auto;
+    padding:20px;
+    border:5px solid #d90429;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    overflow:auto;
+}
+			
+		
+table {
+    border: 3px solid #d90429; 
+    border-collapse:collapse;
+}
+			
+td, th {
+    border: 2px solid #d90429; 
+    padding:10px;
+}
+		
+.aia td {
+    width:33%;
+    border-radius: 25px;
+}
+
+.aia th {
+    font-size:1.25em;
+}
+		
+.clientinfo th {
+    font-size: 1.15em; 
+    border-radius: 25px;
+    text-align:right;
+} */
+
+
+/* START RESPONSIVE STYLES */
+
+/* DESKTOP */
+@media all and (min-width:1400px) {
+	
+    main.wrapper {
+	   width: 100%;
+	   margin: auto;
+    }
+
+    section.left-side {
+        float: left;
+        width: 70%;
+        padding-left: 2.5%;
+        }
+	
+    img.desktop {
+        float: left;
+        width: 30%;
+        display: inline-block;
+    }
+    
+    img.tablet, img.phone {
+   	    display: none;
+    } 
+    
+    aside.right-side {
+        float: right;
+        width: 30%;
+        padding-right: 2.5%;
+    }
+    
+/* Change background color of navigation on selected page */
+    ul.topnav li a.selected {
+        background-color: #f0f0f0;
+        color: #000;
+        border-radius: 13px;
+    }
+    
+    /* Hide Agenda view calendar */
+    div.agenda.embed-container {
+        display: none;
+    }
+}
+
+
+/* TABLET */
+@media all and (min-width:737px) and (max-width:1399px) {
+    
+    section.left-side {
+        float: left;
+        width: 70%;
+        padding-left: 2.5%;
+        }
+	
+    img.tablet {
+        width: 40%;
+        display: inline-block;
+    }
+    
+    img.desktop, img.phone {
+   	    display: none;
+    } 
+    
+    aside.right-side {
+        float: right;
+        width: 30%;
+        padding-right: 2.5%;
+    }
+
+    
+/* Change background color of navigation on selected page */
+    ul.topnav li a.selected {
+        background-color: #f0f0f0;
+        color: #000;
+        border-radius: 13px;
+    }
+    
+    /* Hide Agenda view calendar */
+    div.agenda.embed-container {
+        display: none;
+    }
+}
+    
+/* PHONE */
+@media all and (max-width:736px) {
+    
+    img.phone {
+    	width: 80%;
+        display: inline-block;
+    }
+    
+    img.tablet, img.desktop {
+       	display: none;
+    }  
+    
+    section, aside {
+    float: none;
+    width: 100%;
+    padding-left: 2.5%;
+    }
+    
+    /* Hide Month view calendar */
+    div.month.embed-container {
+        display: none;
+    }
+}
+
+
+
+
